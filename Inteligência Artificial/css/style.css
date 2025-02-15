@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(238, 232, 232);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    box-sizing: border-box;
+}
+header.hero-section{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    padding: 0 20px;
+    background:linear-gradient(rgba(3,1,12, 0.5), rgba(7,1,1, 0.5)) ,url('../img/fundo.jpg');
+    background-size: cover;
+}
+.hero-content h1{
+    font-size:3rem;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.cta-button{
+    padding: 15px 30px;
+    background-color: #6c4dd1;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.5s ease 0s; 
+}
+.cta-button:hover{
+    background-color: #543bbd;
+}
+.about-section{
+    background-color: black;
+}
+.container{
+    max-width:1200px;
+    margin:0;
+    padding: 50px 20px;
+}
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #6c4dd1;
+    text-align: center;
+}
+.benefit-cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    flex: 1;
+    min-width: 280px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.use-case{
+    margin-left: 40px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.contact-section form {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    }
+    form input, form textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+    }
+    form button {
+    padding: 15px;
+    background-color: #6c4dd1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.35;
+    }
+    form button:hover {
+    background-color: #543bbd;
+ }
+ footer {
+    background-color: #6c4dd1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+    .social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    }
